@@ -1,0 +1,9 @@
+.displayFlex {
+    /* border: 5px solid yellow; */
+    display: flex;
+    /* display: inline-flex; */
+}
+
+.box + .box {
+    /* margin-inline-start: 1rem; */
+}

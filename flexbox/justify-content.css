@@ -1,0 +1,34 @@
+.justifyContent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* flex-direction: column; */
+}
+
+/* .justifyContent > img {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+} */
+
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+
+}
+
+.spaceBetween ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+
+}
+
+.spaceBetween img {
+    block-size: 100px;
+    border-radius: 50%;
+}
